@@ -28,7 +28,6 @@ false || true
 
 
 //조건문 실습 1
-
 if(1+1 === 2) {
     console.log("정답입니다")
 } else {
