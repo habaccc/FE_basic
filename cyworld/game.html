@@ -3,6 +3,7 @@
 <head>
     <title>Game</title>
     <link href="./styles/game.css" rel="stylesheet">
+    <script src="./game.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -19,7 +20,7 @@
             <div class="game__subtitle">제시어 : <span id="word">코드캠프</span></span></div>
             <div class="word__text">
                 <input class="textbox" id="myword" placeholder="단어를 입력하세요."> 
-                <button class="search">검색</button>
+                <button class="search" onclick="startWord()">입력</button>
             </div>
             <div id="result" class="word__result">결과!</div>
         </div>
@@ -28,14 +29,14 @@
             <div class="game__title">LOTTO</div>
             <div class="game__subtitle">버튼을 누르세요.</div>
             <div class="game__lotto__number">
-                <div>3</div>
-                <div>5</div>
-                <div>10</div>
-                <div>24</div>
-                <div>30</div>
-                <div>34</div>
+                <span>3</span>
+                <span>5</span>
+                <span>10</span>
+                <span>24</span>
+                <span>30</span>
+                <span>34</span>
             </div>
-            <button class="wrapper__lotto__btn">Button</button>
+            <button class="game__lotto__btn">추첨</button>
         </div>              
         </div>
     </div> 

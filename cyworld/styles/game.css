@@ -112,12 +112,13 @@ html, body {
     font-weight: 700;
     display: flex;
     justify-content: space-between;
-    padding: 5px 8px;
+    padding: 2px 8px;
     margin-bottom: 11px;
     margin-top: 10px;
+
 }
 
-.wrapper__lotto__btn {
+.game__lotto__btn {
     border: 1px solid black;
 	border-radius: 5px;
 	font-weight: 700;
@@ -125,4 +126,8 @@ html, body {
 	width: 62px;
 	height: 24px;
 	background-color: white;
+}
+
+span {
+    margin-bottom: 20px;
 }
