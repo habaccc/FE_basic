@@ -83,10 +83,8 @@ html, body {
     width: 120px;
     height: 40px;
     font-size: 16px;
-    border: 1px solid #d2d2d2;
+    border: 1px solid;
     border-radius: 7px;
-    color: #0068ff;
-    background-color: white;
     margin-left: 20px;
     cursor: pointer;
     
@@ -105,10 +103,8 @@ html, body {
     width: 120px;
     height: 40px;
     font-size: 16px;
-    border: 1px solid #0068ff;
+    border: 1px solid;
     border-radius: 7px;
-    color: white;
-    background-color: #0068ff;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -151,10 +147,8 @@ html, body {
 .submit {
     width: 380px;
     height: 75px;
-    border: 1px solid #0068ff;
+    border: 1px solid;
     border-radius: 10px;
-    background-color: white;
-    color: #0068ff;
     text-align: center;
     font-size: 18px;
     font-weight: 400;

@@ -18,15 +18,15 @@
             <div class="phone">
                 <input type="text" id="p1" oninput="changeFocus1()" maxlength="3"> -
                 <input type="text" id="p2" oninput="changeFocus2()" maxlength="4"> -
-                <input type="text" id="p3" oninput="checkValidation()" maxlength="4">
+                <input type="text" id="p3" oninput="changeFocus3()" maxlength="4">
             </div>
             <div class="auth">
-                <div id="authNumber">000000</div>
-                <button onclick="auth()" id="send" disabled="true">인증번호 전송</button>
+                <div id="token">000000</div>
+                <button onclick="getToken()" id="token__btn" disabled="disabled">인증번호 전송</button>
             </div>
             <div class="timer">
                 <div id="timer">3:00</div>
-                <button disabled="true">인증 완료</button>
+                <button onclick="getTokenTimerConfirm()" id="token__confirm__btn" disabled="disabled">인증 완료</button>
             </div>
             <div class="location">
                 <select>
@@ -46,7 +46,7 @@
             </div>
             <div class="divideLine"></div>
             <div>
-                <button class="submit" id="submit" disabled="true">가입하기</button>
+                <button class="submit" id="signup__btn" disabled="disabled">가입하기</button>
             </div>
         </div>
     </div>
