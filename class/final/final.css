@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    width: 380px;
+    color: #0068ff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.background {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper {
+    width: 540px;
+    height: 960px;
+    align-items: center;
+    padding: 60px 78px;
+    border: 1px solid #aacdff;
+    border-radius: 20px;
+    background-color: white;
+    filter: drop-shadow(7px 7px 39px #0068ff40);
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.inputBox input {
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    padding-left: 15px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.phone input {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    
+}
+
+.auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: #0068ff;
+    margin-bottom: 20px;
+
+}
+
+.auth button {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    color: #0068ff;
+    background-color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: #0068ff;
+    margin-bottom: 20px;
+}
+
+.timer button {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #0068ff;
+    border-radius: 7px;
+    color: white;
+    background-color: #0068ff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.location select {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px 0px 130px;
+}
+
+.gender input {
+    width: 20px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    fill: #EBEBEB;
+    stroke-width: 1px;
+    stroke: #d2d2d2;
+}
+
+.divideLine {
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 380px;
+    height: 75px;
+    border: 1px solid #0068ff;
+    border-radius: 10px;
+    background-color: white;
+    color: #0068ff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
