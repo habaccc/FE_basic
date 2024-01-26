@@ -11,7 +11,7 @@
 }
 
 .outerbox {
-    width: 800px;
+    width: 807px;
     height: 544px;
     background-image: url("../images/outerbox.png");
 }
@@ -92,6 +92,7 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
+    
 }
 
 .left__body__footer {
@@ -161,4 +162,28 @@ iframe {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+.navigation {
+    width: 62px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 784px;
+    top: 110px;
+}
+
+.navigation__item {
+    width: 60px;
+    height: 30px;
+    background-color: #298eb5;
+    border: 1px solid black;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
 }
